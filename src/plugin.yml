@@ -1,0 +1,6 @@
+name: IJMinas
+main: pt.intellijente.mina.Main
+version: 1.0
+commands:
+  ijminas:
+    aliases: minas

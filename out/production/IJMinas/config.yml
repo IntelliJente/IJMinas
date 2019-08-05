@@ -1,0 +1,58 @@
+#Copyright IntelliJente#2723
+
+#World
+World: world
+
+#Block Regeneration - BETA VERSION
+#It might cause lag on weak hosts
+Regeneration:
+  activate: true
+  time: 3
+
+#Player will receive those messages
+Message:
+  chat:
+    activate: true
+    message:
+      -  "&f[%group%&f] &eVendeu &a1 &ede &a%block%"
+  actionbar:
+    activate: true
+    message: "&f[%group%&f] &eVendeu &a1 &ede &a%block%"
+
+#Create how many ranks you want
+Ranks:
+  #key
+  rank1:
+    #permission
+    permission: "mina.rank1"
+    #name for %group% variable
+    name: "&6Rank I"
+    #blocks
+    blocks:
+      - "LAPIS_ORE, 1000"
+      - "IRON_ORE, 500"
+  rank2:
+    permission: "mina.rank2"
+    name: "&3Rank II"
+    blocks:
+      - "LAPIS_ORE, 10000"
+      - "IRON_ORE, 5000"
+
+#Format Money
+Decimal:
+  - "C" #100
+  - "K" #1000
+  - "M" #10000
+  - "B" #100000
+  - "T" #1000000
+  - "Q" #ETC
+  - "QI"
+  - "S"
+  - "SEP"
+  - "OC"
+  - "N"
+  - "DEC"
+  - "UN"
+  - "DUO"
+  - "TRE"
+  #- "NEW" - you can add more!
